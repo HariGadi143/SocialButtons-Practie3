@@ -1,0 +1,48 @@
+.mainContainer {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapperContainer {
+  /* height: 100%; */
+  /* width: 100%; */
+  padding: 100px;
+  box-sizing: border-box;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.wrapperContainer h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.buttonsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+.btnItem {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  min-width: 80px;
+}
